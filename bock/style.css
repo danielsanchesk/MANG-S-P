@@ -1,7 +1,8 @@
-    :root{
-        --cor-de-fundo:grey;
-    }
+@import url("style/header.css");
 
-    body{
-  background-color: black;
-    }
+:root{
+  --cor-de-fundo: #b10000;
+}
+body{
+  background-color: var(--cor-de-fundo);
+}
