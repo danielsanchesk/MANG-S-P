@@ -1,7 +1,7 @@
-.cabeçalho-menu container-imagem{
+.cabeçalho-menu-container-imagem {
     width: 24px;
     height: 24px;
-    background-image: url("../img/menu.svg");
+    background-image: url("../img/MenuAberto.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -28,6 +28,6 @@
 
 }
 
-.container-botao:checked~.lista-menu{
+.container-botao:checked ~ .lista-menu{
     display: block;
 }
